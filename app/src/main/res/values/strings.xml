@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Explorer</string>
+    <string name="action_settings">Switch City</string>
+    <string-array name="CList">
+        <item>Jay Pritzker Pavilion</item>
+        <item>Willis Tower</item>
+        <item>Lincoln Park Zoo</item>
+        <item>Adlers Planetarium</item>
+        <item>Chicago Childrens Museum</item>
+        <item>Shedd Aquarium</item>
+        <item>Field Museum of Natural History</item>
+        <item>John Hancock Center</item>
+        <item>Navy Pier</item>
+        <item>Soldier Field</item>
+        <item>United Center</item>
+        <item>Chicago Theatre</item>
+    </string-array>
+    <string-array name="URLs">
+        <item>http://www.jaypritzkerpavilion.com/</item>
+        <item>http://www.willistower.com/</item>
+        <item>http://www.lpzoo.org/</item>
+        <item>http://www.adlerplanetarium.org/</item>
+        <item>http://www.chicagochildrensmuseum.org/</item>
+        <item>http://www.sheddaquarium.org/</item>
+        <item>https://www.fieldmuseum.org/</item>
+        <item>http://www.johnhancockcenterchicago.com/</item>
+        <item>https://navypier.com/</item>
+        <item>http://www.soldierfield.net/</item>
+        <item>http://www.unitedcenter.com/</item>
+        <item>http://www.thechicagotheatre.com/</item>
+    </string-array>
+    <string-array name="IList">
+        <item>Indianapolis Zoo</item>
+        <item>Indiana State Museum</item>
+        <item>Lucas Oil Stadium</item>
+        <item>Indianapolis Motor Speedway</item>
+    </string-array>
+    <string-array name="IURLs">
+        <item>http://www.indianapoliszoo.com/SitePages/Home.aspx</item>
+        <item>http://www.indianamuseum.org/</item>
+        <item>http://www.lucasoilstadium.com//</item>
+        <item>http://www.indianapolismotorspeedway.com/</item>
+    </string-array>
+</resources>

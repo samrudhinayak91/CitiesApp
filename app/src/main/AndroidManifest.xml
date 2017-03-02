@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samrudhinayak.app2">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="App2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="MainActivity"
+            android:label="App2"
+            android:configChanges="keyboardHidden|screenSize|orientation|screenSize|layoutDirection"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ChicagoMainActivity"
+            android:label="Chicago, Illinois"
+            android:configChanges="keyboardHidden|screenSize|orientation|screenSize|layoutDirection"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="IndianapolisMainActivity"
+            android:label="Indianapolis, Indiana"
+            android:configChanges="keyboardHidden|screenSize|orientation|screenSize|layoutDirection"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+            <receiver
+            android:label="ChicagoReceiver"
+            android:enabled="true"
+            android:name=".ChicagoReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.samrudhinayak.project31"  >
+                </action>
+            </intent-filter>
+        </receiver>
+            <receiver
+                android:label="IndianapolisReceiver"
+                android:enabled="true"
+                android:name=".IndianapolisReceiver"
+                android:exported="true" >
+                <intent-filter>
+                    <action android:name="com.example.samrudhinayak.project32"  >
+                    </action>
+                </intent-filter>
+            </receiver>
+
+    </application>
+
+</manifest>
